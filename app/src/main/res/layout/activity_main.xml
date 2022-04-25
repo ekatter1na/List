@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/yx8pffy_no"
+    android:background="@drawable/image"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -13,7 +13,7 @@
         style="@style/Widget.AppCompat.ListView"
         android:layout_width="353dp"
         android:layout_height="390dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="68dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"></ListView>
@@ -22,7 +22,7 @@
         android:id="@+id/textView2"
         android:layout_width="152dp"
         android:layout_height="42dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="16dp"
         android:background="#4B2C2C2C"
 
         android:gravity="center"
@@ -31,7 +31,7 @@
         android:textColor="#FFFFFF"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
