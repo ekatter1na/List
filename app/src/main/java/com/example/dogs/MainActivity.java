@@ -14,6 +14,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainActivity extends AppCompatActivity {
+
     int dog;
     String selectedItem;
     ArrayList<String> lines = new ArrayList<String>();
