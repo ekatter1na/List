@@ -21,7 +21,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         Intent intent = getIntent();
         dog = intent.getIntExtra("selectedItem",dog);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
         TextView text = findViewById(R.id.textView);
         TextView namedtext = findViewById(R.id.namedText);
         try {
